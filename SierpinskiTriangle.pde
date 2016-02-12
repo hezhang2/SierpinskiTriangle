@@ -16,7 +16,6 @@ public void setup(){
 public void draw(){
   background(200);
   sierpinski(theX,theY,theLen);
-  println();
   zoom(direct);
 }
 public void keyReleased(){
